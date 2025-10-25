@@ -25,7 +25,7 @@ public class FileProcessor {
                 System.out.println("Size of file "+file.length()+" bytes");
 
                 if(searchText != null && !searchText.trim().isEmpty()){
-                    boolean found = searcher.containText(file, searchText);
+                    boolean found = searcher.containsText(file, searchText);
                     System.out.println("Text " +searchText + " found status: "+found);
                 }
                 System.out.println("--------------------------------");
