@@ -19,6 +19,8 @@ java FileExplorer . .txt Two
 //  
 Usage: java FileExplorer <directory> <extension> [searchText]
 Example: java FileExplorer . .txt Two // which gives us every file in currecnt directory which includes word "Two"
+<img width="597" height="274" alt="image" src="https://github.com/user-attachments/assets/9d90b9e9-58fc-4f89-8503-66f12c74a901" />
+
 
 for Building an Executable JAR File
 //
