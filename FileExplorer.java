@@ -15,17 +15,14 @@ public class FileExplorer {
         String directory = args[0];
         String extension = args[1];
         String searchtext = (args.length > 2) ? args[2] : null; 
-        //Use of Anonymous Class
-        FileSearch searcher = new FileSearch() {
-            @Override
-            public boolean containsText(File file, String searchText) {
-                try {
-                    String content = new String(java.nio.file.Files.readAllBytes(file.toPath()));
-                    return content.contains(searchText);
-                } catch (Exception e) {
-                    System.out.println("Error reading file: " + file.getName());
-                    return false;
-                }
+        //LAMBDA EXPRESSION instead of anonymous class
+        FileSearch searcher = (file, searchText) -> {
+            try {
+                String content = new String(java.nio.file.Files.readAllBytes(file.toPath()));
+                return content.contains(searchText);
+            } catch (Exception e) {
+                System.out.println("Error reading file: " + file.getName());
+                return false;
             }
         };
         FileProcessor processor = new FileProcessor(searcher);
