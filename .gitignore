@@ -1,0 +1,20 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore build folders
+/out/
+/build/
+/bin/
+
+# Ignore IDE stuff
+.cursor/
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+.DS_Store
+
+# Maven / Gradle build stuff
+target/
