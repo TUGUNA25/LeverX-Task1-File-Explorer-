@@ -22,17 +22,16 @@ A simple command-line file utility that lists files by extension and searches fo
 ## ⚙️ Compile and Run
 
 ```bash
-# Compile the program
-javac FileExplorer.java
-
-# Run the program
-java FileExplorer . .txt Two
 
 📘 Usage
 java FileExplorer <directory> <extension> [searchText]
 
-🧩 Example
+# Compile the program
+javac FileExplorer.java
+
+🧩 Example for Run the program
 java FileExplorer . .txt Two
+
 This command lists every .txt file in the current directory that includes the word "Two".
 
 🖼️ Example Output
