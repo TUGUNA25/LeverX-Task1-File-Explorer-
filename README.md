@@ -39,17 +39,19 @@ A simple command-line file utility that lists files by extension and searches fo
 
 ## 🖼️ Example Output
 
+```bash
 File explorer started !!!!!
 Processing directory: .
 Looking for files with extension: .txt
 Found file: tst1.txt
 Size of file 397 bytes
 Text Two found status: false
+
 Found file: tst2.txt
 Size of file 374 bytes
 Text Two found status: true
+
 Found file: tst3.txt
 Size of file 298 bytes
 Text Two found status: false
-```bash
-
+```
