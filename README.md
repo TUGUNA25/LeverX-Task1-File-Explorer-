@@ -27,3 +27,14 @@ javac FileExplorer.java
 
 # Run the program
 java FileExplorer . .txt Two
+
+📘 Usage
+java FileExplorer <directory> <extension> [searchText]
+
+🧩 Example
+java FileExplorer . .txt Two
+This command lists every .txt file in the current directory that includes the word "Two".
+
+🖼️ Example Output
+<img width="599" height="273" alt="image" src="https://github.com/user-attachments/assets/0e178fcf-70c8-4dbe-871a-f09a19b26160" />
+
