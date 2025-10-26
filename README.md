@@ -32,5 +32,19 @@ A simple command-line file utility that lists files by extension and searches fo
 This command lists every .txt file in the current directory that includes the word "Two".
 
 🖼️ Example Output
-<img width="599" height="273" alt="image" src="https://github.com/user-attachments/assets/0e178fcf-70c8-4dbe-871a-f09a19b26160" />
+File explorer started !!!!!
+Processing directory: .
+Looking for files with extension: .txt
+Found file: tst1.txt
+Size of file 397 bytes
+Text Two found status: false    
+--------------------------------
+Found file: tst2.txt
+Size of file 374 bytes
+Text Two found status: true     
+--------------------------------
+Found file: tst3.txt
+Size of file 298 bytes
+Text Two found status: false    
+--------------------------------
 
