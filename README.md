@@ -23,13 +23,21 @@ A simple command-line file utility that lists files by extension and searches fo
 
 ```bash
 
-# Usage - java FileExplorer <directory> <extension> [searchText]
+# Usage -> java FileExplorer <directory> <extension> [searchText]
 
-# Compile the program - javac FileExplorer.java
+# Compile the program -> javac FileExplorer.java
 
-# Example for Run the program - java FileExplorer . .txt Two
+# Example for Run the program -> java FileExplorer . .txt Two
 
 # This command lists every .txt file in the current directory that includes the word "Two".
+
+
+📦 Building an Executable JAR File
+# Compile -> javac FileExplorer.java
+
+# Create the JAR with all compiled classes -> jar cfe FileExplorer.jar FileExplorer .
+
+# Run the JAR -> java -jar FileExplorer.jar . .txt "Two"
 
 🖼️ Example Output
 File explorer started !!!!!
